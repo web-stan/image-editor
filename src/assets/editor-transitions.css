@@ -1,0 +1,22 @@
+.editor-panel--cropper {
+  transition-delay: 0ms;
+}
+
+.editor-panel--adjustments {
+  transition-delay: 270ms;
+}
+
+.editor-panel--preview {
+  transition-delay: 490ms;
+}
+
+.editor-panel.fade-transition-enter-active {
+  transition-duration: 550ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .editor-panel {
+    transition-delay: 0ms;
+    transition-duration: 1ms;
+  }
+}

@@ -1,0 +1,14 @@
+---
+description: Project-wide Cursor rules
+alwaysApply: true
+---
+
+Follow the root `AGENTS.md` instructions.
+
+Use MCP servers from `.cursor/mcp.json` when relevant:
+- context7 for up-to-date library docs
+- vuetify-mcp for Vuetify docs and APIs
+
+When doing frontend/code changes, also follow `docs/ai-engineering-rules.md` as the shared engineering rules for this repository.
+
+Keep changes minimal and aligned with existing architecture.
